@@ -21,3 +21,7 @@ then go to http://localhost:5000/departments
 you could drill down by deparments too!
 
 try http://localhost:5000/dept/police
+
+try http://localhost:5000/dept/police/police%20officer
+
+try http://localhost:5000/dept/police/police%20officer/acevedo,%20%20eric
