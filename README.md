@@ -1,8 +1,22 @@
-# Assignment-5
-RESTful web services + Docker
+# REST API
 
-The Web Services displays the API of Employees in Chicago
-With their department position and salary
-And we devloped it in a FLASK app and Created a Docker Container
-And Uploaded it in a Docker Container
-The RESTful Web Services fetches Departments,Position,Name and Salary of Employee
+## what is this?
+simple api example using flask. a flask api object contains one or more functionalities (GET, POST, etc). 
+
+
+## install
+
+```
+pip install -r requirements.txt
+```
+
+## run
+```
+python app.py
+```
+
+then go to http://localhost:5000/departments
+
+you could drill down by deparments too!
+
+try http://localhost:5000/dept/police
